@@ -25,21 +25,33 @@
     "dist"
   ],
   "eslintConfig": {
-    "extends": ["airbnb-base"],
+    "extends": [
+      "airbnb-base"
+    ],
     "parser": "babel-eslint",
     "rules": {
       "semi": 0,
-      "no-param-reassign": [2, { "props": false }]
+      "no-param-reassign": [
+        2,
+        {
+          "props": false
+        }
+      ]
     }
   },
-  "babel": { "presets": ["es2015", "stage-0"] },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
   "engines": {
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
   },
   "dependencies": {
     "babel-core": "6.22.1",
-    "node-dht-sensor": "0.0.32"
+    "node-dht-sensor": "0.0.34"
   },
   "devDependencies": {
     "babel-cli": "6.22.2",
